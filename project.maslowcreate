@@ -6,9 +6,36 @@
             "x": 0,
             "y": 0,
             "uniqueID": 369723,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "3D  Geometry",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "3D  Geometry",
+                    "x": 30,
+                    "y": 156,
+                    "uniqueID": 784874,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 576,
+                    "y": 109,
+                    "uniqueID": 880770,
+                    "ioValues": [
+                        {
+                            "name": "Input1",
+                            "ioValue": 10
+                        }
+                    ],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return Input1.section()        //return must be geometry;\n}\n\nreturn main(Input1)"
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -17,7 +44,21 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Input1",
+                    "ap2Primary": false,
+                    "ap1ID": 784874,
+                    "ap2ID": 880770
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 880770
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
