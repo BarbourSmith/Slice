@@ -8,7 +8,7 @@
             "uniqueID": 369723,
             "ioValues": [
                 {
-                    "name": "3D  Geometry",
+                    "name": "3D Geometry",
                     "ioValue": 10
                 }
             ],
@@ -16,7 +16,7 @@
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "3D  Geometry",
+                    "name": "3D Geometry",
                     "x": 30,
                     "y": 156,
                     "uniqueID": 784874,
